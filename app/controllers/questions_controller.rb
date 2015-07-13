@@ -48,6 +48,6 @@ class QuestionsController < ApplicationController
 
   private
   def question_params
-    params.require(:question).permit(:title, :option_one, :option_two, :option_one_votes, :option_two_votes)
+    params.require(:question).permit(:option_one, :option_two, :option_one_votes, :option_two_votes)
   end
 end
