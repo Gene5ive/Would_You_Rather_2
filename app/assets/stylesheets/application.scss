@@ -1,0 +1,17 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.navbar {
+ border: 0;
+ border-radius: 0;
+ background: #999;
+}
+
+.navbar-default .navbar-nav li a {
+ color: #FFF;
+}
+
+.navbar-right {
+ padding-right: 10px;
+}
